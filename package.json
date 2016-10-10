@@ -1,0 +1,16 @@
+{
+  "name": "githubdownloader",
+  "version": "1.0.0",
+  "description": "Download Avatars from Github",
+  "main": "download_avatars.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "download",
+    "avatars",
+    "github"
+  ],
+  "author": "Mike",
+  "license": "ISC"
+}
