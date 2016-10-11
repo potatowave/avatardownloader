@@ -36,7 +36,7 @@ module.exports = function(owner, repo) {
 
     // forEach
 
-    data.forEach(function (currentValue, index, array) {
+    data.forEach(function (value, index, array) {
 
       var login = data[index].login;
       var avatarURL = data[index].avatar_url;

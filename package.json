@@ -12,5 +12,14 @@
     "github"
   ],
   "author": "Mike",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/potatowave/avatardownloader"
+  },
+  "dependencies": {
+    "dotenv": "^2.0.0"
+  }
 }
+
+// end
