@@ -2,9 +2,13 @@
 
 var request = require('request');
 
-// require image to deal with
+// require image which takes in a URL and a local
+// file path to save the .jpg file presented from
+// the git API
 
 var image = require('./downloadImage');
+
+// HTTP object
 
 module.exports = function(owner, repo) {
 
