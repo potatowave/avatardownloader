@@ -21,9 +21,10 @@ const httpOptions = {
   url: 'https://api.github.com/repos/' + owner + '/' + repo + "/contributors",
   method: 'GET',
   headers: {
-    'User-Agent': 'request'
+    'User-Agent': 'request',
+    'Authorization': 'token ' + 'e54941d9155c7f2ea642869ec0024b0c1fa5a3ae'
   },
-  json: true
+  json: true,
 };
 
 //  downloadImageByURL takes two arguments, first the URL you want to download and
@@ -65,5 +66,3 @@ function handleResponse (err, res, data) {
 console.log("Downloading avatars of: \n" + httpOptions.url + "\n");
 
 request(httpOptions, handleResponse);
-
-// have pictures.
