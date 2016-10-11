@@ -6,9 +6,9 @@ var request = require('request');
 // file path to save the .jpg file presented from
 // the git API
 
-var image = require('./downloadImage');
+var downloadImageByURL = require('./downloadImage');
 
-// HTTP object
+// HTTP object / method and token.
 
 module.exports = function(owner, repo) {
 
@@ -21,6 +21,8 @@ module.exports = function(owner, repo) {
   },
   json: true,
 };
+
+//  pass in httpConfig and define callback function.
 
   request(httpConfig, function handleResponse (err, res, data) {
   if (err || res.statusCode == "404") {
@@ -45,5 +47,6 @@ module.exports = function(owner, repo) {
   }
 });
 
-
 };
+
+// end
