@@ -20,7 +20,7 @@ if (input.length === 2) {
 
 } else {
 
-console.log("Incorrect amount of arguments.  Please pass two arguments\n\n");
-console.log("node.js download_avatars.js owner repo\n\n");
+  console.log("Incorrect amount of arguments.  Please pass two arguments\n\n");
+  console.log("node.js download_avatars.js owner repo\n\n");
 
 };
