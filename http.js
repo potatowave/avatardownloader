@@ -6,7 +6,7 @@ var request = require('request');
 // file path to save the .jpg file presented from
 // the git API
 
-var downloadImageByURL = require('./downloadImage');
+var downloadImageByURL = require('./downloadimage');
 
 // HTTP object / method and token.
 
@@ -48,5 +48,3 @@ module.exports = function(owner, repo) {
 });
 
 };
-
-// end

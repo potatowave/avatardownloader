@@ -10,5 +10,3 @@ module.exports = function (url, filePath) {
  request(url).pipe(fs.createWriteStream(filePath));
 
 }
-
-// end
